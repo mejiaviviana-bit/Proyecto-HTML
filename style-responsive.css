@@ -1,0 +1,146 @@
+@media (max-width: 768px) {
+
+  /* Navbar */
+
+  .nav-container {
+
+    flex-direction: column;
+
+    align-items: center;
+
+  }
+
+  .nav-menu {
+
+    width: 100%;
+
+    flex-direction: column;
+
+  }
+
+  .nav-menu li a {
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 6px;
+
+  }
+
+  /* Section title */
+
+  .banner-header {
+
+    padding-top: 150px; /* ajusta según la altura real del menú */
+
+  }
+
+  .banner-header-text {
+
+    width: 80%;
+
+  }
+
+  .banner-title {
+
+    font-size: 2em;
+
+  }
+
+  /* Portfolio */
+
+  .portfolio .portfolio-nav {
+
+    display: none;
+
+  }
+
+  .card-projects {
+
+    display: grid; /* Define el contenedor como una cuadrícula */
+
+    grid-template-columns: repeat(1, 1fr); /* 3 columnas de igual tamaño */
+
+    gap: 20px; /* Espacio de 20px entre filas y columnas */
+
+  }
+
+  /* Contact */
+
+  .card-info {
+
+    display: grid; /* Define el contenedor como una cuadrícula */
+
+    grid-template-columns: repeat(1, 1fr); /* 1 columnas de igual tamaño */
+
+    text-align: center;
+
+  }
+
+  .form-map {
+
+    margin: 30px;
+
+    display: grid; /* Define el contenedor como una cuadrícula */
+
+    grid-template-columns: repeat(1, 1fr); /* 2 columnas de igual tamaño */
+
+    gap: 20px;
+
+  }
+
+  /* Single Project */
+
+  .single-project .description h4 {
+
+    font-size: 1em;
+
+  }
+
+  .single-project-info {
+
+    grid-template-rows: auto auto auto; /* Cambia a tres filas iguales en dispositivos pequeños */
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .single-project-details {
+
+    text-align: center;
+
+  }
+
+  /* About */
+
+  .skills {
+
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .about iframe {
+
+    width: 100%;
+
+  }
+
+  .main-footer {
+
+    height: auto;
+
+    padding: 20px 0;
+
+  }
+
+  .main-footer .container {
+
+    flex-direction: column;
+
+    gap: 10px;
+
+  }
+
+}
+
